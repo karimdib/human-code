@@ -29,7 +29,7 @@
   - prendo un carrello
   - Seguo la lista FINCHè non ho messo nel carrello ogni prodotto presente
   -  SE ci sono i prodotti presenti nella lista
-     - li acquisto
+     - li metto nel carrello
     - ALTRIMENTI
       - li cancello dalla lista stessa
   - faccio un check:
