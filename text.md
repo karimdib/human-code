@@ -1,42 +1,40 @@
 # Fare la spesa seguendo una lista
-- controllo ciò che manca in dispensa/frigo :
+
+- Controllo ciò che manca in dispensa/frigo:
   - SE il frigo è vuoto
     - mi preparo per fare la lista
   - ALTRIMENTI
     - non la faccio
-- stilo la lista :
+- stilo la lista (con il suo contenuto):
   - crocchette Ricky
   - pane
   - latte
   - uova
   - carne
   - verdura
-- FINCHè non ho il portafogli, il coupon da 20 euro e la busta della spesa non esco di casa
+- FINCHè non ho il portafogli, il coupon da 20 euro e la busta della spesa li cerco:
+  - SE Dopo aver cercato non ho uno di questi tre pre-requisiti
+  - ALLORA non esco e rimando a domani la spesa
 - esco di casa
 - mi dirigo al supermercato:
  - SE ho la macchina
-  - guido
+   - guido
  - ALTRIMENTI
-  - vado a piedi
+   - vado a piedi
  - SE il supermercato vicino casa è aperto
    - entro
  - ALTRIMENTI
    - ne cerco un altro
-- entro nel supermercato :
+- entro nel supermercato:
   - prendo un carrello
-  - mi dirigo subito nel reparto animali:
-    - SE ci sono i soliti croccantini
-      - li acquisto
+  - Seguo la lista FINCHè non ho messo nel carrello ogni prodotto presente
+  -  SE ci sono i prodotti presenti nella lista
+     - li acquisto
     - ALTRIMENTI
-      - scelgo un'altra marca
-  - mi dirigo nel reparto del prodotto che mi serve:
-    - SE c'è il prodotto
-      - lo acquisto
-    - ALTRIMENTI
-      - lo cancello dalla lista
+      - li cancello dalla lista stessa
   - faccio un check:
    - SE ho abbastanza tempo
-     - compro snack extra
+     - compro gli snack extra
    - ALTRIMENTI
      - mi dirigo verso le casse
 - pagamento:
@@ -48,6 +46,6 @@
       - pago l'eccedenza con quelli
     - ALTRIMENTI
       - pago con carta
-- smisto i prodotti nella busta della spesa
+<!-- - smisto i prodotti nella busta della spesa
 - esco dal supermercato
-- torno a casa
+- torno a casa -->
